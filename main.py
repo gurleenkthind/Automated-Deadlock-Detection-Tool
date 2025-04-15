@@ -21,7 +21,7 @@ class DeadlockDetectionApp:
         self.update_history()
     
     def create_gui(self):
-        """Create the main GUI layout with modern design"""
+        """Create the main GUI layout with the modern design"""
         main_frame = tb.Frame(self.root, padding=15)
         main_frame.pack(fill=tk.BOTH, expand=True)
         
